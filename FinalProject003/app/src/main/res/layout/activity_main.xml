@@ -1,0 +1,62 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/game_title_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="게임을 선택하세요"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/baseball_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/teal_200"
+        android:text="숫자 야구"
+        android:textSize="40sp"
+        android:paddingTop="50dp"
+        android:paddingBottom="50dp"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/updown_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/purple_200"
+        android:text="업다운"
+        android:textSize="40sp"
+        android:paddingTop="50dp"
+        android:paddingBottom="50dp" />
+
+    <LinearLayout
+        android:id="@+id/game_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="32dp"
+        android:visibility="gone">
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/bug_button"
+        android:layout_width="144dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:background="@color/red"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:text="게임 버그 신고"
+        android:textSize="20sp" />
+
+</LinearLayout>
